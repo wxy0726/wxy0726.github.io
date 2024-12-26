@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI知识库 - 首页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">AI知识库</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">首页</a></li>
+            <li><a href="deep-learning.html">深度学习</a></li>
+            <li><a href="machine-learning.html">机器学习</a></li>
+            <li><a href="nlp.html">自然语言处理</a></li>
+            <li><a href="computer-vision.html">计算机视觉</a></li>
+            <li><a href="robotics.html">机器人技术</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1 class="animate-text">欢迎来到AI知识库</h1>
+            <p class="animate-text">探索人工智能的奥秘，开启智能化未来</p>
+            <div class="search-box">
+                <input type="text" placeholder="搜索AI知识...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </section>
+
+        <section class="featured-topics">
+            <h2>热门主题</h2>
+            <div class="cards-container">
+                <div class="card" onclick="location.href='deep-learning.html'">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h2>深度学习</h2>
+                    <p>神经网络、深度学习框架、模型训练等</p>
+                    <div class="card-stats">
+                        <span><i class="fas fa-book-reader"></i> 2.5k 阅读</span>
+                        <span><i class="fas fa-star"></i> 4.8 评分</span>
+                    </div>
+                </div>
+                <div class="card" onclick="location.href='machine-learning.html'">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h2>机器学习</h2>
+                    <p>监督学习、无监督学习、强化学习等</p>
+                    <div class="card-stats">
+                        <span><i class="fas fa-book-reader"></i> 3.1k 阅读</span>
+                        <span><i class="fas fa-star"></i> 4.9 评分</span>
+                    </div>
+                </div>
+                <div class="card" onclick="location.href='nlp.html'">
+                    <div class="card-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h2>自然语言处理</h2>
+                    <p>文本分析、语言模型、机器翻译等</p>
+                    <div class="card-stats">
+                        <span><i class="fas fa-book-reader"></i> 2.8k 阅读</span>
+                        <span><i class="fas fa-star"></i> 4.7 评分</span>
+                    </div>
+                </div>
+                <div class="card" onclick="location.href='computer-vision.html'">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h2>计算机视觉</h2>
+                    <p>图像处理、目标检测、人脸识别等</p>
+                    <div class="card-stats">
+                        <span><i class="fas fa-book-reader"></i> 2.3k 阅读</span>
+                        <span><i class="fas fa-star"></i> 4.6 评分</span>
+                    </div>
+                </div>
+                <div class="card" onclick="location.href='robotics.html'">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h2>机器人技术</h2>
+                    <p>机器人控制、感知规划、人机交互等</p>
+                    <div class="card-stats">
+                        <span><i class="fas fa-book-reader"></i> 1.9k 阅读</span>
+                        <span><i class="fas fa-star"></i> 4.5 评分</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-updates">
+            <h2>最新动态</h2>
+            <div class="updates-grid">
+                <div class="update-card">
+                    <div class="update-date">2024-03-20</div>
+                    <h3>GPT-4更新：多模态能力增强</h3>
+                    <p>OpenAI发布GPT-4最新版本，增强了图像理解和生成能力...</p>
+                    <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="update-card">
+                    <div class="update-date">2024-03-18</div>
+                    <h3>新型计算机视觉算法突破</h3>
+                    <p>研究人员提出新的目标检测方法，准确率提升15%...</p>
+                    <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="update-card">
+                    <div class="update-date">2024-03-15</div>
+                    <h3>机器人技术在医疗领域新应用</h3>
+                    <p>智能手术机器人成功完成首例远程微创手术...</p>
+                    <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>关于我们</h3>
+                <p>AI知识库致力于为学习者提供全面的人工智能学习资源</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <ul>
+                    <li><a href="#">学习路线</a></li>
+                    <li><a href="#">资源下载</a></li>
+                    <li><a href="#">在线课程</a></li>
+                    <li><a href="#">技术社区</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>联系我们</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-zhihu"></i></a>
+                </div>
+            </div>
+        </div>  
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
